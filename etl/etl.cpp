@@ -75,7 +75,7 @@ public:
             return { TokenType::MODULO, "%" };
         case '=':
             position++;
-            return { TokenType::ASSIGN, "\"" };
+            return { TokenType::ASSIGN, "=" };
         default:
             // TODO: fancy exceptions handler
             cerr << "Syntax error" << endl;
